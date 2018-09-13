@@ -21,7 +21,7 @@
 ## Install
 
 ```bash
-npm install --save-dev @cknow/sasslint-config
+npm install --save-dev @fourdigit/sasslint-config-fourdigit
 ```
 
 ## Usage
@@ -32,13 +32,13 @@ Add some SassLint config to your `.sass-lint.yml`:
 
 ```yaml
 options:
-  config-file: ./node_modules/@cknow/sasslint-config/config.yml
+  config-file: ./node_modules/@fourdigit/sasslint-config-fourdigit/config.yml
 ```
 
 ## Usage direct on command line
 
 ```bash
-sass-lint --config ./node_modules/@cknow/sasslint-config/config.yml
+sass-lint --config ./node_modules/@fourdigit/sasslint-config-fourdigit/config.yml
 ```
 
 > **Note:** It is not necessary to create the `.sass-lint.yml` file.

@@ -1,6 +1,6 @@
 {
-  "name": "@cknow/sasslint-config",
-  "version": "0.0.0-semantically-released",
+  "name": "@fourdigit/sasslint-config-fourdigit",
+  "version": "0.0.1",
   "description": "SassLint shareable config",
   "keywords": [
     "sasslint",
@@ -22,15 +22,15 @@
     "verify",
     "enforce"
   ],
-  "homepage": "https://github.com/cknow/sasslint-config",
+  "homepage": "https://github.com/fourdigit/sasslint-config-fourdigit",
   "bugs": {
-    "url": "https://github.com/cknow/sasslint-config/issues",
-    "email": "ricardo@clicknow.com.br"
+    "url": "https://github.com/fourdigit/sasslint-config-fourdigit/issues",
+    "email": "dd-develop@4digit.jp"
   },
   "license": "MIT",
   "author": {
-    "name": "Ricardo Gobbo de Souza",
-    "email": "ricardogobbosouza@yahoo.com.br",
+    "name": "FOURDIGIT DESIGN DEVELOP TEAM",
+    "email": "dd-develop@4digit.jp",
     "role": "Developer"
   },
   "files": [
@@ -39,7 +39,7 @@
   "main": "config.yml",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cknow/sasslint-config"
+    "url": "https://github.com/fourdigit/sasslint-config-fourdigit"
   },
   "scripts": {
     "commit": "commit",
