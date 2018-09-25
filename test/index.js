@@ -14,16 +14,18 @@ const runSassLint = file => {
     return sasslint.lintFiles(require.resolve(file), options);
 };
 
-test('sasslint sass', t => {
-    const result = runSassLint('./fixtures/example.sass');
+test('sasslint scss BAD', t => {
+    const result = runSassLint('./fixtures/bad.scss');
 
-    t.is(1, result[0].errorCount);
+    t.is(3, result[0].errorCount);
+
     t.is(result[0].messages[0].ruleId, 'indentation');
+    t.is(result[0].messages[1].ruleId, 'property-units');
+    t.is(result[0].messages[2].ruleId, 'property-units');
 });
 
-test('sasslint scss', t => {
-    const result = runSassLint('./fixtures/example.scss');
+test('sasslint scss GOOD', t => {
+    const result = runSassLint('./fixtures/good.scss');
 
-    t.is(1, result[0].errorCount);
-    t.is(result[0].messages[0].ruleId, 'indentation');
+    t.is(0, result[0].errorCount);
 });
