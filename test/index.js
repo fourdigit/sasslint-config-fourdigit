@@ -23,3 +23,9 @@ test('sasslint scss BAD', t => {
     t.is(result[0].messages[1].ruleId, 'property-units');
     t.is(result[0].messages[2].ruleId, 'property-units');
 });
+
+test('sasslint scss GOOD', t => {
+    const result = runSassLint('./fixtures/good.scss');
+
+    t.is(0, result[0].errorCount);
+});
