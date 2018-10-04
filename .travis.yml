@@ -2,19 +2,11 @@ sudo: false
 
 language: node_js
 
-cache:
-  directories: ~/.npm
-
 notifications:
   email: false
 
 node_js:
-  - 9
-  - 8
-  - 7
-  - 6
-  - 5
-  - 4
+  - lts/carbon
 
 install:
   - travis_retry yarn install
@@ -24,13 +16,3 @@ script:
   - npm --version
   - yarn --version
   - npm test
-
-deploy:
-  provider: script
-  skip_cleanup: true
-  script:
-    - npm install -g travis-deploy-once semantic-release && travis-deploy-once "semantic-release"
-
-branches:
-  except:
-    - /^v\d+\.\d+\.\d+$/

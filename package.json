@@ -67,8 +67,7 @@
     "sass-lint": ">=1.12.1"
   },
   "engines": {
-    "node": ">=4",
-    "npm": ">=3"
+    "node": ">=8"
   },
   "preferGlobal": false,
   "private": false
