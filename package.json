@@ -1,6 +1,6 @@
 {
   "name": "@fourdigit/sasslint-config-fourdigit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "SassLint shareable config",
   "keywords": [
     "sasslint",
