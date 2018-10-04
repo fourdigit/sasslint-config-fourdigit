@@ -1,5 +1,7 @@
 # SassLint Config
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/fourdigit/sasslint-config-fourdigit.svg)](https://greenkeeper.io/)
+
 > SassLint [shareable config](https://github.com/sasstools/sass-lint#sass-lint-----)
 
 ## Install
