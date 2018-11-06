@@ -1,25 +1,18 @@
 sudo: false
-
 language: node_js
-
 notifications:
   email: false
-
 node_js:
-  - lts/carbon
-
+- lts/carbon
 install:
-  - travis_retry yarn install
-
+- travis_retry yarn install
 script:
-  - node --version
-  - npm --version
-  - yarn --version
-  - npm test
-
+- node --version
+- npm --version
+- yarn --version
+- npm test
 deploy:
   provider: npm
   email: vinhpq.tn@gmail.com
-  api_key: e6309f85-6f7d-4458-9b96-52bb4f3c9ede
-  on:
-    all_branches: true
+  api_key:
+    secure: eOOzLkg0Ww8VcdUen83vAfpv5M+RvesejFg4RqL35gpXLKeowkMnUwWNZVpadxJ/tr/o9DdFyT1aQHLunlvh6/NlSV5fmCNTvq96yA0CGBa1VxPwNIIB3lNMkOQ+c5TA9g+2SX3JhpC9wxd7+wbT7NyMZRyWzgKCYW0s2wZ8u/GK8bZt3ee6oqSawillw3LSjRqxVm4mR/W4ns+Fg38igZ1YLnoRRhjcd0Qlskoo7Okiyg6ciS6RuqGGCEIEG0FQichPS0VPigkBwA5Hm4NHHwZueC5+149wt3Mow7fsi2Ho76atwa2irjKPslniqiIBAS4gPG4fh9+aq9TM/9mwnf8XqnOJV9qlOWae+4liry249mgf8nuvTYRCzYHP5gB8tBuFF7dSUsFbgn18v7V2/di7hSo7x9lADKnvVtnroyY3DL3DZOyY13KnQ6TzLCuX0iiMGzgIaLqyrJYUlKbp1TIZaw8jDgHtFEYmw7ffQCa9Iu8h7YKrFRnpBfOUFeWVJsN318Fr9Hysz+wQ6VbdtmEkDbmLqCjDye8pxw/CRhCv3QBrWvyi4h4RIMr7uCMuHExhxYI0qANe60nl+SOtEnL8yOS8iZHUrg8JGRaWmzoaFp+aFL1Oe6yY3Gfa3ul04ro/x9QaLYYIWfNIpAPsf0ZD1MTPaQ68qYAnEWNT1Zk=
