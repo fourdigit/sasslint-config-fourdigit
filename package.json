@@ -52,7 +52,7 @@
     "watch": "nodemon --exec npm t"
   },
   "devDependencies": {
-    "@cknow/eslint-config": "^3.7.0",
+    "@cknow/eslint-config": "^3.14.0",
     "@commitlint/cli": "^7.1.2",
     "@commitlint/config-conventional": "^7.1.2",
     "@commitlint/prompt-cli": "^7.1.2",
