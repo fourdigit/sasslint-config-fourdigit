@@ -61,7 +61,7 @@
     "eslint-plugin-ava": "^5.1.1",
     "husky": "^1.1.0",
     "nodemon": "^1.17.2",
-    "sass-lint": "^1.12.1"
+    "sass-lint": "^1.13.1"
   },
   "peerDependencies": {
     "sass-lint": ">=1.12.1"
